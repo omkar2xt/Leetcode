@@ -1,30 +1,34 @@
-class Solution:
+class Solution(object):
     def myAtoi(self, s):
-        i = 0
-        n = len(s)
+        """
+        :type s: str
+        :rtype: int
+        """
+        numlist = []
+        minus = 0
+        for i in s:
+            if i == "-" and (not numlist):
+                minus = 1
+                numlist.append(0)
+                continue
+            if i == "+" and (not numlist):
+                numlist.append(0)
+                continue
+            if i == " " and (not numlist):
+                continue
+            try:
+               numlist.append(int(i))
+            except ValueError:
+                break
+        if not numlist:
+            return 0
+        result = int("".join(map(str, numlist)))
+        if minus == 1:
+            result = result * -1
+        if result < -2147483648:
+            return -2147483648
 
-        while i < n and s[i] == " ":
-            i += 1
+        if result > 2147483647:
+            return 2147483647
 
-        sign = 1
-        if i < n and s[i] in "+-":
-            if s[i] == "-":
-                sign = -1
-            i += 1
-
-        num = 0
-        while i < n and s[i].isdigit():
-            num = num * 10 + int(s[i])
-            i += 1
-
-        num *= sign
-
-        INT_MIN = -(2**31)
-        INT_MAX = 2**31 - 1
-
-        if num < INT_MIN:
-            return INT_MIN
-        if num > INT_MAX:
-            return INT_MAX
-
-        return num
+        return result
