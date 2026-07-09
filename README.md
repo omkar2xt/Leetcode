@@ -27,6 +27,7 @@ Daily Slove problems
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/omkar2xt/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/omkar2xt/Leetcode/tree/master/0013-roman-to-integer) |
 ## Binary Search
 |  |
@@ -57,4 +58,12 @@ Daily Slove problems
 | [0015-3sum](https://github.com/omkar2xt/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/omkar2xt/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/omkar2xt/Leetcode/tree/master/0018-4sum) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/omkar2xt/Leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/omkar2xt/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
