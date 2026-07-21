@@ -33,6 +33,7 @@ Daily Slove problems
 | [0007-reverse-integer](https://github.com/omkar2xt/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/omkar2xt/Leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/omkar2xt/Leetcode/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/omkar2xt/Leetcode/tree/master/0070-climbing-stairs) |
 ## Binary Search
 |  |
 | ------- |
@@ -75,4 +76,12 @@ Daily Slove problems
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/omkar2xt/Leetcode/tree/master/0020-valid-parentheses) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/omkar2xt/Leetcode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/omkar2xt/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
